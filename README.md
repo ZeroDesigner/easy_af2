@@ -4,7 +4,9 @@
 
 ## 前言：
 
-AF2已经出了一段时间，上次试了试RoseTTAFold，这次我们试试AlphaFold2.
+AF2已经出了一段时间，上次试了试RoseTTAFold，这次我们试试AlphaFold2。
+
+![03d40565b55d43818f9968ac555cec2b](https://gitee.com/zerodesigner/markdown-png/raw/master/uPic/03d40565b55d43818f9968ac555cec2b.png)
 
 ## 方式
 
@@ -116,9 +118,18 @@ bash run_alphafold.sh -d ./scripts -o ./output/ -m model_1 -f ./example/query.fa
 
 1. GPU：一张A100 显卡  5w-7w（目前还没有在这么强大的显卡上跑过），
 2. 存储空间：50T ，5k-1w左右
-3. CPU： [Intel® Xeon® Gold 6338 Processor (48M Cache, 2.00 GHz)](https://www.intel.cn/content/www/cn/zh/products/sku/212285/intel-xeon-gold-6338-processor-48m-cache-2-00-ghz/specifications.html) 32 cores  8k左右
+3. CPU： [Intel® Xeon® Gold 6338 Processor (48M Cache, 2.00 GHz)](https://www.intel.cn/content/www/cn/zh/products/sku/212285/intel-xeon-gold-6338-processor-48m-cache-2-00-ghz/specifications.html) 32 cores  2w左右
 
 价格都差不多，当然你还需要人力来配置，人工费用另算。或者直接买超算的GPU核时。
+
+### 后记
+
+还有很多不同的玩法
+
+具体参看：
+
+1. https://github.com/sokrypton/ColabFold
+2. https://github.com/deepmind/alphafold/issues/24
 
 ## 参考：
 
@@ -127,10 +138,8 @@ bash run_alphafold.sh -d ./scripts -o ./output/ -m model_1 -f ./example/query.fa
 3. 非docker下的AF2:https://github.com/deepmind/alphafold/issues/24
 4. 硬盘价格：https://www.jd.com/jiage/67036b20876f0c79715.html
 5. A100 价格：https://www.smzdm.com/p/36608092/
-6. CPU价格：https://www.intel.cn/content/www/cn/zh/products/details/processors/xeon/scalable/gold.html#:~:text=%E7%AC%AC%E4%B8%89%E4%BB%A3%E8%8B%B1%E7%89%B9%E5%B0%94%C2%AE%20%E8%87%B3%E5%BC%BA%C2%AE%20%E5%8F%AF%E6%89%A9%E5%B1%95%E5%A4%84%E7%90%86%E5%99%A8%E5%8C%85%E6%8B%AC%E8%8B%B1%E7%89%B9%E5%B0%94%C2%AE%20SGX%EF%BC%8C%E5%8F%AF%E5%AE%9E%E6%97%B6%E4%BF%9D%E6%8A%A4%E8%BE%B9%E7%BC%98%E3%80%81%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E5%92%8C%E5%A4%9A%E7%A7%9F%E6%88%B7%E5%85%AC%E5%85%B1%E4%BA%91%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E5%BA%94%E7%94%A8%E4%BB%A3%E7%A0%81%EF%BC%8C%E6%94%AF%E6%8C%81%E8%BF%90%E7%94%A8%E5%85%B1%E4%BA%AB%E6%95%B0%E6%8D%AE%E6%9D%A5%E5%8A%A0%E5%BC%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BE%8B%E5%A6%82%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%AD%E7%9A%84%E8%81%94%E5%90%88%E5%AD%A6%E4%B9%A0%EF%BC%89%EF%BC%8C%E5%90%8C%E6%97%B6%E4%B8%8D%E6%8D%9F%E5%AE%B3%E9%9A%90%E7%A7%81%E3%80%82,%E8%8B%B1%E7%89%B9%E5%B0%94%C2%AE%20Speed%20Select%20%E6%8A%80%E6%9C%AF%EF%BC%88%E8%8B%B1%E7%89%B9%E5%B0%94%C2%AE%20SST%EF%BC%89%E9%9B%86%E5%90%88%E4%BA%86%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%84%E7%90%86%E5%99%A8%E7%89%B9%E6%80%A7%EF%BC%8C%E4%BB%8E%E8%80%8C%E4%BC%98%E5%8C%96%E5%A4%84%E7%90%86%E8%B5%84%E6%BA%90%E4%BB%A5%E6%8F%90%E9%AB%98%E5%B7%A5%E4%BD%9C%E8%B4%9F%E8%BD%BD%E6%80%A7%E8%83%BD%E5%B9%B6%E6%8F%90%E9%AB%98%E5%88%A9%E7%94%A8%E7%8E%87%EF%BC%8C%E8%BF%98%E5%8F%AF%E5%B8%AE%E5%8A%A9%E4%BC%98%E5%8C%96%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC%E3%80%82
-
-
 
 
 
  
+
