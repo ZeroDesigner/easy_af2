@@ -10,7 +10,7 @@ AF2已经出了一段时间，上次试了试RoseTTAFold，这次我们试试Alp
 
 ## 方式
 
-### 1 躺平式
+### 1 躺平式（Colab版）
 
 简称白嫖Geogle，直接使用colab进行使用，当然你得会科学上网（别看了，我这里不教）
 
@@ -28,7 +28,7 @@ Colab提供了一张GPU V100 以供挥霍
 
 第二步：
 
-点击方格左侧的▶️使其运行，或者直接shift+ctrl
+点击方格左侧的▶️使其运行，或者直接shift+enter
 
 ![image-20210721001842649](https://gitee.com/zerodesigner/markdown-png/raw/master/uPic/image-20210721001842649.png)
 
@@ -54,7 +54,7 @@ predict_structure 在预测结构，而下方的excute则是运行时间，案�
 
 
 
-### 2 本地版
+### 2 直立式（本地版）
 
 
 
