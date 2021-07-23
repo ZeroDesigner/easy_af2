@@ -14,7 +14,7 @@ AF2已经出了一段时间，上次试了试RoseTTAFold，这次我们试试Alp
 
 简称白嫖Geogle，直接使用colab进行使用，当然你得会科学上网（别看了，我这里不教）
 
-Colab提供了一张GPU V100 以供挥霍
+Colab提供了一张GPU  以供挥霍
 
 直接点击进入 此网站 https://colab.research.google.com/drive/1PePaHHp1J-L1rufW4_r7v7VpZjYVUbTH
 
