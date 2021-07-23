@@ -7,7 +7,6 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=4.5=1_gnu
-  - aria2=1.34.0=0
   - backcall=0.2.0=pyhd3eb1b0_0
   - c-ares=1.11.0=h470a237_1
   - ca-certificates=2020.10.14=0
